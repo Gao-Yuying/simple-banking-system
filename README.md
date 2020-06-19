@@ -15,7 +15,6 @@ Your card number:
 4000007890000067
 Your card PIN:
 8369
-
 ````
 When generating card information, these conditions are satisfied:
 - The card number is unique and has 16 digits.
@@ -70,7 +69,6 @@ You have successfully logged in!
 4. Close account
 5. Log out
 0. Exit
-
 ````
 ### Log out
 When the customer chooses ‘Log out,’ he returns to the main menu.
@@ -88,7 +86,6 @@ You have successfully logged out!
 1. Create account
 2. Log into account
 0. Exit
-
 ````
 ### Get balance
 Displays the account balance. The balance of a new account is 0.
@@ -102,7 +99,6 @@ Displays the account balance. The balance of a new account is 0.
 >1
 
 Balance: 0
-
 ````
 ### Add income
 Allows the customer to deposit money to the account.
@@ -138,7 +134,6 @@ Income was added!
 >1
 
 Balance: 5000
-
 ````
 ### Do transfer
 Allows transferring money to another account. It handles following errors:
@@ -237,7 +232,6 @@ Success!
 >1
 
 Balance: 1
-
 ````
 ### Close account
 Deletes current account from the database.
@@ -274,7 +268,6 @@ Enter your PIN:
 >5304
 
 Wrong card number or PIN!
-
 ````
 ### Exit
 Exits the program.
@@ -287,5 +280,4 @@ Exits the program.
 Bye!
 
 Process finished with exit code 0
-
 ````
