@@ -67,6 +67,7 @@ public class BankingController {
                 break;
             case "5":
                 logOut();
+                break;
             default:
                 System.out.println("Invalid command.");
         }
